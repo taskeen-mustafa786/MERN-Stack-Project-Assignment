@@ -1,7 +1,7 @@
 /*
     Size for all components
  */
- 
+
  * {
   box-sizing: border-box;
 }
@@ -26,13 +26,12 @@ h1 {
    Login Page
  */
 
-.login
-{
+.login{
   height: 400px;
   width: 400px;
-  background-color:rgb(19, 18, 18);
+  background-color: rgb(19, 18, 18);
   border: 4px solid rgb(33, 34, 34);
-  top:0px;
+  top: 0px;
 }
 
 /*
@@ -45,43 +44,43 @@ h1 {
   position: absolute;
   top: 170px;
   left: 130px;
-  text-align: justify; 
-  border: 1px solid black; 
+  text-align: justify;
+  border: 1px solid black;
   border-radius: 1mm;
-  box-sizing:content-box; 
-  color:rgb(0, 0, 0);
+  box-sizing: content-box;
+  color: rgb(0, 0, 0);
   font-size: 17;
   font-weight: lighter bolder;
   font-family: 'Courier New', Courier, monospace;
   background-color: black;
-  
 }
 
+.field:hover {
+  background-color: #474547;
+  transition: 0.7s;
+}
 /*
    Password Field
  */
-.pass
-{
+.pass {
   width: 200px;
   height: 22px;
   position: absolute;
   top: 200px;
   left: 130px;
-  text-align: justify; 
-  border: 1px solid black; 
+  text-align: justify;
+  border: 1px solid black;
   border-radius: 1mm;
-  box-sizing:content-box; 
-  color:rgb(59, 62, 63);
+  box-sizing: content-box;
+  color: rgb(59, 62, 63);
   font-size: 17;
   font-weight: bolder;
   font-family: 'Courier New', Courier, monospace;
-  background-color:  black;
-  
-  
+  background-color: black;
 }
 
-.pass:hover{
-  background-color:#c7a9ca;
+.pass:hover {
+  background-color: #474547;
   transition: 0.7s;
 }
 
@@ -89,8 +88,7 @@ h1 {
   Login Button 
  */
 
-.input{
-
+.input {
   height: 27px;
   width: 80px;
   text-align: center;
@@ -100,18 +98,14 @@ h1 {
   top: 250px;
   left: 190px;
   border: 1px solid rgb(8, 8, 8);
-  border-radius:2cm;
+  border-radius: 2cm;
   color: rgb(121, 118, 118);
   font-size: 17;
   font-weight: bolder;
   font-family: 'Courier New', Courier, monospace;
-  
 }
 
-.input:hover
-{
-  background-color:#ed97f5;
+.input:hover {
+  background-color: #474547;
   transition: 0.7s;
 }
-
-
