@@ -1,9 +1,31 @@
 import React from 'react';
+import {useState} from 'react';
 import './style.css';
 
 export default function App() 
 {
-  // const {pass,setPass}
+  // const {userName,setUserName} = useState();
+  //  const {pass,setPass} = useState();
+
+  // var userName = "taskeen";
+  // var password = "pass";
+
+  // tempPass;
+
+  // function check()
+  // { 
+
+     
+  //   if(uName == userName && tempPass == password)
+  //   {
+  //     return(
+  //      <HomePage></HomePage>
+  //     )
+
+      
+  //   }
+  // }
+
   // function 
   function LoginPage()
   {
